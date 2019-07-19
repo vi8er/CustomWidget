@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.ys.customwidget.CustomTabLayout.CustomTabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            app:tabBackground="@android:color/transparent"
+            app:tabGravity="center"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabIndicatorHeight="3dp"
+            app:tabMinWidth="5dp"
+            app:tabMode="fixed"
+            app:tabPaddingEnd="10dp"
+            app:tabPaddingStart="10dp"
+            app:tabSelectedTextColor="@color/black"
+            app:tabTextAppearance="@style/MyTabLayoutTextAppearance"
+            app:tabTextColor="@color/gray" >
+
+    </com.ys.customwidget.CustomTabLayout.CustomTabLayout>
+
+    <com.ys.customwidget.InterceptHorizontalViewPager.InterceptHorizontalViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </com.ys.customwidget.InterceptHorizontalViewPager.InterceptHorizontalViewPager>
+
+</LinearLayout>
